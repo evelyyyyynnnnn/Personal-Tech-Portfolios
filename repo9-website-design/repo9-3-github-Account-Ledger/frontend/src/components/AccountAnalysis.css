@@ -1,0 +1,114 @@
+.account-analysis {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.account-analysis h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2rem;
+}
+
+.chart-container {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+.chart-container.full-width {
+  grid-column: 1 / -1;
+}
+
+.chart-container h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #4caf50;
+  text-align: center;
+}
+
+.account-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.account-item {
+  background: white;
+  border-radius: 8px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  border: 1px solid #e8f5e9;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.account-item:hover {
+  transform: translateY(-2px);
+  border-color: #4caf50;
+}
+
+.account-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.account-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.account-name {
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+.account-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1.95rem;
+}
+
+.account-amount {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #4caf50;
+}
+
+.account-count {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-container {
+    padding: 1rem;
+  }
+
+  .account-analysis {
+    padding: 1.5rem;
+  }
+
+  .account-list {
+    grid-template-columns: 1fr;
+  }
+}
+

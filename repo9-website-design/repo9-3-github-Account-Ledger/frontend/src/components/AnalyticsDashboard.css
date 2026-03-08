@@ -1,0 +1,219 @@
+.analytics-dashboard {
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+.dashboard-header {
+  background: #ffffff;
+  color: #2c5530;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e8f5e9;
+}
+
+.dashboard-header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2c5530;
+  letter-spacing: -0.3px;
+}
+
+.refresh-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.refresh-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-1px);
+}
+
+.balance-overview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem;
+}
+
+.balance-card {
+  background: white;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  border: 1px solid #e8f5e9;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.balance-card:hover {
+  transform: translateY(-2px);
+  border-color: #4caf50;
+}
+
+.balance-card.income {
+  border-left: 4px solid #66bb6a;
+}
+
+.balance-card.expense {
+  border-left: 4px solid #ef5350;
+}
+
+.balance-card.balance {
+  border-left: 4px solid #4caf50;
+}
+
+.balance-icon {
+  font-size: 0;
+  line-height: 1;
+  width: 0;
+  display: none;
+}
+
+.balance-content {
+  flex: 1;
+}
+
+.balance-content h3 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  opacity: 0.9;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #666;
+}
+
+.balance-value {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+}
+
+.analytics-tabs {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0;
+  padding: 0 2rem;
+  background-color: white;
+  border-bottom: 1px solid #e8f5e9;
+  overflow-x: auto;
+}
+
+.analytics-tabs button {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  background-color: transparent;
+  color: #666;
+  cursor: pointer;
+  border-radius: 0;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+  margin: 0 0.25rem;
+  white-space: nowrap;
+  font-family: 'Inter', sans-serif;
+}
+
+.analytics-tabs button:hover {
+  color: #4caf50;
+}
+
+.analytics-tabs button.active {
+  background-color: transparent;
+  color: #4caf50;
+  border-bottom: 2px solid #4caf50;
+}
+
+.analytics-content {
+  padding: 1.5rem 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.overview-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.analytics-loading,
+.analytics-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.analytics-error {
+  gap: 1rem;
+}
+
+.retry-btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.retry-btn:hover {
+  background-color: #45a049;
+  transform: translateY(-1px);
+}
+
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #4caf50;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 768px) {
+  .dashboard-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .balance-overview {
+    grid-template-columns: 1fr;
+    margin: 1rem;
+  }
+
+  .analytics-tabs {
+    flex-direction: column;
+  }
+
+  .analytics-content {
+    padding: 1rem;
+  }
+}
+

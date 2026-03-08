@@ -1,0 +1,175 @@
+.ledger-table-container {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e8f5e9;
+  overflow: hidden;
+}
+
+.table-filters {
+  padding: 1rem 1.5rem;
+  background-color: #fafafa;
+  border-bottom: 1px solid #e8f5e9;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.filter-select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  background-color: white;
+  cursor: pointer;
+  transition: border-color 0.2s ease;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+.total-display {
+  margin-left: auto;
+  padding: 0.5rem 1rem;
+  background: #4caf50;
+  color: white;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.ledger-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ledger-table thead {
+  background-color: #4caf50;
+  color: white;
+}
+
+.ledger-table th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-family: 'Inter', sans-serif;
+}
+
+.ledger-table th.sortable {
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+.ledger-table th.sortable:hover {
+  background-color: #45a049;
+}
+
+.ledger-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.15s ease;
+}
+
+.ledger-table tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.ledger-table td {
+  padding: 0.75rem 1rem;
+  color: #333;
+  font-size: 0.875rem;
+}
+
+.payment-cell {
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+.account-badge,
+.category-badge,
+.type-badge {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.account-badge {
+  background-color: #e8f5e9;
+  color: #4caf50;
+}
+
+.category-badge {
+  background-color: #e8f5e9;
+  color: #66bb6a;
+}
+
+.type-badge {
+  background-color: #e3f2fd;
+  color: #1976d2;
+  font-weight: 600;
+}
+
+.type-badge.income {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.type-badge.expense {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.no-data {
+  text-align: center;
+  color: #999;
+  padding: 3rem;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .table-filters {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .total-display {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .ledger-table {
+    font-size: 0.9rem;
+  }
+
+  .ledger-table th,
+  .ledger-table td {
+    padding: 0.75rem 0.5rem;
+  }
+}
+
