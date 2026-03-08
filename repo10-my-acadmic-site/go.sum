@@ -1,0 +1,6 @@
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260124040029-77f7678f08ac h1:wBIfTsEolCNJMi9posg/ZBMG4KNzKWFEh7cq1N1YZRU=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260124040029-77f7678f08ac/go.mod h1:0F2Ss2NeylmaBP7+qx0U6zFPeMZ9NoLbAQakKXDqygo=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652 h1:KdTgOy8hzPOUJcMyR6Tp2k3tyaJzoxz2e1zaddcG0uk=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652/go.mod h1:UuppRGml2K1EmlDkN+HemycohgZLjOy0QPGYOnoPnY4=
+github.com/HugoBlox/kit/modules/slides v0.0.0-20260113153632-aa9edea5df2a h1:pAmM7/M2gichwWvDNlf3ItReJxkmewP6mEXv1ymJVBU=
+github.com/HugoBlox/kit/modules/slides v0.0.0-20260113153632-aa9edea5df2a/go.mod h1:/XTQAtd2KCiwg/GVMAoSzKPf/DYPVbAAEysmBdWgYu4=

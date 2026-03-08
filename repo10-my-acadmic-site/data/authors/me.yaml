@@ -1,0 +1,267 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Ms. Wenke Du
+  given: Wenke
+  family: Du
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: she/her
+postnominals:
+  - Master
+  - Operational Research and Inform
+status:
+  icon: "☕️"
+role: Quantitative Researcher
+bio: |
+  Evelyn Du is a quantitative researcher with demonstrated expertise in the
+  design and implementation of optimization-driven, system-level decision
+  frameworks. Her work integrates machine learning, statistical inference,
+  and computational optimization to support high-stakes decision making
+  across finance, healthcare AI, and secure digital infrastructure.
+
+  She has contributed to peer-reviewed research and patented systems spanning
+  financial forecasting, intelligent medical devices, and AI-assisted risk
+  modeling. Evelyn’s research emphasizes trustworthy, scalable, and
+  verifiable decision systems that bridge rigorous theory with real-world
+  deployment, advancing data-driven solutions of national and societal
+  importance.
+affiliations:
+  - name: American Mutual Fund
+    url: 
+
+links:
+  - icon: at-symbol
+    url: mailto:vickydu1213@gmail.com
+    label: E-mail Me
+  - icon: brands/x
+    url: http://bento.me/linda-lin
+  - icon: brands/github
+    url: https://github.com/evelyyyyynnnnn
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/wenke-du-036ba536b/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=3bUZCSEAAAAJ&hl=en&oi=ao
+  - icon: academicons/orcid
+    url:  https://orcid.org/0009-0007-5579-234X
+
+interests:
+  - Large Language Models
+  - Multi-Agent Systems
+  - Reinforcement Learning
+  - Trustworthy & Responsible AI
+  - AI for Finance
+  - Causal Inference
+  - Blockchain Security
+
+education:
+  - degree: Master of Financial Engineering
+    institution: Cornell University, College of Engineering
+    location: Ithaca, NY, USA
+    start: 2024-08-01
+    end: 2026-01-31
+    gpa: 4.0
+    summary: |
+      Focus on machine learning, computational optimization, causal inference, and AI-driven decision making.
+      Selected coursework includes Reinforcement Data Mining, Computational Optimization, Risk Modeling,
+      Machine Learning for Big Messy Data, and Blockchain Practice.
+
+  - degree: Bachelor of Accounting & Data Science
+    institution: Renmin University of China
+    location: Beijing, China
+    start: 2020-09-01
+    end: 2024-06-30
+    gpa: 3.8
+
+
+
+experience:
+  - role: Quantitative Alpha Research Intern
+    org: American Mutual Fund
+    location: New York, NY, USA
+    start: 2025-06-01
+    end: 2025-08-31
+    summary: |
+      Designed and backtested medium-term alpha strategies for structured products and fixed income portfolios
+      using alternative datasets. Applied Bayesian regression, LSTM, and neural networks across multiple
+      market regimes (2018–2024), improving Sharpe ratio by 0.25. Prototyped a transformer-based LLM
+      for constrained portfolio optimization, achieving 12% volatility reduction and improved
+      risk-adjusted returns. Collaborated with the Portfolio Analytics Group to integrate LLM pipelines
+      into Aladdin.
+
+  - role: Algorithm Project Leader
+    org: Aqumon
+    location: China
+    start: 2020-06-01
+    end: 2020-12-31
+    summary: |
+      Led algorithmic research projects on high-frequency trading risk analysis, processing 10M+ transaction
+      records. Built decision-tree and econometric models to identify systematic risk points and improve
+      backtesting performance (>50% yield). Established standardized data pipelines and documentation
+      for large-scale unstructured financial datasets, significantly improving reproducibility and
+      onboarding efficiency across teams.
+
+
+skills:
+  - name: Programming & Data
+    items:
+      - label: Python 
+        level: 5
+      - label: SQL
+        level: 5
+      - label: R 
+        level: 4
+      - label: MATLAB / STATA / SPSS
+        level: 4
+
+  - name: Systems & Tools
+    items:
+      - label: Docker / MLflow
+        level: 4
+      - label: GitHub Actions
+        level: 4
+      - label: Ray RLlib / Spark / FastAPI
+        level: 4
+      - label: Vector Databases 
+        level: 4
+      - label: Retrieval Systems
+        level: 4
+
+
+  - name: Machine Learning & AI
+    items:
+      - label: Large Language Models
+        level: 5
+      - label: Curriculum RL
+        level: 5
+      - label: Reinforcement Learning 
+        level: 4
+      - label: Time-Series Modeling
+        level: 5
+      - label: Self-Supervised 
+        level: 4
+      - label: Representation Learning
+        level: 4
+
+  - name: Research & Communication
+    items:
+      - label: Academic Writing 
+        level: 5
+      - label: Conference Presentations 
+        level: 4
+      - label: Empirical Study Design
+        level: 5
+      - label: Cross-Disciplinary Collaboration
+        level: 5
+      - label: Peer-Reviewed Publications
+        level: 5
+
+languages:
+  - name: Mandarin Chinese
+    level: 5
+    label: Native
+  - name: English
+    level: 5
+    label: Fluent
+  - name: Korean
+    level: 3
+    label: Intermediate
+  - name: French
+    level: 2
+    label: Basic
+
+
+awards:
+  - title: Akuna Trading Competition – Silver Award
+    awarder: Akuna Capital
+    date: "2024-02-01"
+    url: https://akunacapital.com/careers/trading-competition
+    summary: |
+      Awarded Silver in a highly competitive global quantitative trading competition
+      hosted by Akuna Capital. Demonstrated strong performance in market-making
+      strategy design, pricing models, risk control, and real-time decision making
+      under simulated market conditions.
+    icon: hero/trophy
+
+  - title: Ivy-STAR Award
+    awarder: IFAC · CGMA · AICPA
+    date: "2023-06-01"
+    url: https://www.ifac.org/what-we-do/education/ifac-student-awards
+    summary: |
+      Selected as an Ivy-STAR awardee by the International Federation of Accountants (IFAC),
+      CGMA, and AICPA. This distinction recognizes outstanding academic achievement,
+      leadership potential, and professional excellence among global finance
+      and accounting students.
+    icon: hero/star
+
+  - title: Association for Computing Machinery (ACM) – Student Member
+    awarder: Association for Computing Machinery
+    date: "2023-05-01"
+    url: https://www.acm.org/membership
+    summary: |
+      Admitted as a student member of the Association for Computing Machinery (ACM),
+      the world’s largest international computing society, recognizing engagement
+      in computer science research and applied machine learning.
+    icon: hero/cpu-chip
+
+  - title: Dean’s List
+    awarder: University of Missouri–Kansas City (UMKC)
+    date: "2022-09-01"
+    url: https://www.umkc.edu/
+    summary: |
+      Named to the Dean’s List for exceptional academic performance.
+      This achievement was also reported by mainstream media,
+      highlighting sustained excellence in quantitative and analytical coursework.
+    icon: hero/academic-cap
+
+  - title: Mathematical Contest in Modeling (MCM) – Finalist Prize
+    awarder: COMAP
+    date: "2022-02-01"
+    url: https://www.comap.com/undergraduate/contests/mcm/
+    summary: |
+      Awarded Finalist Prize in the international Mathematical Contest in Modeling (MCM).
+      Developed a complete mathematical and computational modeling solution to a real-world
+      optimization problem, integrating statistical analysis, algorithmic design,
+      and interdisciplinary reasoning.
+    icon: hero/academic-cap
+
+  - title: Merit Student & Academic Excellence Awards
+    awarder: Renmin University of China
+    date: "2021-09-01"
+    url: https://www.ruc.edu.cn/
+    summary: |
+      Recognized as a Merit Student at Renmin University of China, along with
+      multiple academic and activity-based awards. Honors outstanding academic
+      performance, research engagement, and leadership in student activities.
+    icon: hero/medal
+
+  - title: Global Citizen Scholar
+    awarder: Global Citizen Program
+    date: "2021-02-01"
+    url: https://globalcitizen.org/
+    summary: |
+      Selected for the Global Citizen Scholar program based on academic excellence
+      and global engagement. Recognizes leadership in interdisciplinary research,
+      cross-cultural collaboration, and commitment to social impact initiatives.
+    icon: hero/globe-alt
+
+  - title: Kaggle Competitions – Silver Medal
+    awarder: Kaggle
+    date: "2021-01-01"
+    url: https://www.kaggle.com/competitions
+    summary: |
+      Earned Silver Medal in large-scale Kaggle machine learning competitions,
+      ranking within the top global tier through advanced feature engineering,
+      ensemble modeling, and rigorous validation strategies.
+    icon: hero/chart-bar
+
+  - title: Mathematical Competition – First Prize
+    awarder: National / Regional Mathematics Competition
+    date: "2018-01-01"
+    summary: |
+      Awarded First Prize in a mathematics competition, recognizing strong
+      analytical reasoning, problem-solving ability, and mathematical creativity
+      at an early academic stage.
+    icon: hero/calculator
+
